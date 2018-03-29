@@ -123,6 +123,7 @@ body {
     width: 50%!important;
     position: relative;
     height: 300px;
+    margin: auto;
 }
 
 img.d-block.w-100{
@@ -137,6 +138,14 @@ img.d-block.w-100{
     color: #333334;
     width: 100%;
     }
+.subtitulo_evento{
+    color: #aaa;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 0px;
+}
 
     /*.eventos_pagina{
     width: 100%;
@@ -165,11 +174,15 @@ img.d-block.w-100{
     width: 100%;
 }
 
+.text_informacao{
+    width: 95%;
+    margin: auto;
+    color: #6c757d;
+    text-align: justify;
+}
+
 h2{
     text-align: center;
-}
-p{
-    text-align: justify;
 }
 
 .row {
