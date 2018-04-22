@@ -4,22 +4,19 @@
         <title>Resort</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="Resort.css">
-        <script type="text/javascript" src="Resort.js"></script>
-
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
-
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--Fim do Bootstrap-->
     </head>
     <body>
         <div class="barra_tarefas">
             <ion-grid col-12>
                 <ion-row col-12>
                     <ion-col col-12 class="promo">
-                        <li><a href="#home">Promoção</a></li>
+                        <li><a class="letras" href="#home">Promoção</a></li>
                     </ion-col>
                 </ion-row>
             </ion-grid>
@@ -44,19 +41,19 @@
         <ion-grid col-12 class="button_transparent">
             <ion-row col-12>
                 <ion-col col-4 class="quarto">
-                    <a href="#quartos">Quartos</a>
+                    <a style="color:#fff;" href="#quartos">Quartos</a>
                 </ion-col>
                 <ion-col col-4 class="fotos">
-                    <a href="#fotos">Fotos</a>
+                    <a style="color:#fff;" href="#fotos">Fotos</a>
                 </ion-col>
                 <ion-col col-4 class="turismo">
-                    <a href="#turismo">Turismo</a>
+                    <a style="color:#fff;" href="#turismo">Turismo</a>
                 </ion-col>
                 <ion-col col-4 class="eventos">
-                    <a href="#eventos">Eventos</a>
+                    <a style="color:#fff;" href="#eventos">Eventos</a>
                 </ion-col>
                 <ion-col col-4 class="contato">
-                    <a href="#informaçao">Informação</a>
+                    <a style="color:#fff;" href="#informaçao">Informação</a>
                 </ion-col>
             </ion-row>
         </ion-grid>       
@@ -70,8 +67,8 @@
                         <div class="row">
                          <div class='list-group gallery'>
                             <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                                <a class="thumbnail fancybox" rel="ligthbox" href="..\projeto\fotos\quarto\quarto1.jpeg">
-                                    <img class="img-responsive" alt="" src="..\projeto\fotos\quarto\quarto1.jpeg" />
+                                <a class="thumbnail fancybox" rel="ligthbox" href="..\..\projeto\rojeto_faculdade\Fotos\quarto\quarto1.jpeg">
+                                    <img class="img-responsive" alt="..\..\projeto\rojeto_faculdade\Fotos\quarto\quarto1.jpeg" src="..\..\projeto\rojeto_faculdade\Fotos\quarto\quarto1.jpeg" />
                                     <div class="text-right">
                                         <small class='text-muted'>Image Title</small>
                                     </div> <!-- text-right / end -->
@@ -97,13 +94,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img class="d-block w-100" src="..\projeto\fotos\eventos\evento1.jpeg" alt="First slide">
+                    <img class="d-block w-100" src="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento1.jpeg" alt="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento1.jpeg">
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100" src="..\projeto\fotos\eventos\evento2.jpeg" alt="Second slide">
+                    <img class="d-block w-100" src="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento2.jpeg" alt="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento2.jpeg">
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide">
+                    <img class="d-block w-100" src="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento5.jpeg" alt="..\..\projeto\rojeto_faculdade\Fotos\eventos\evento2.jpeg">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -125,10 +122,14 @@
                         <h2>Missão</h2>
                          <p class="text_informacao">Buscamos a melhor forma de oferecer serviços de qualidade, visando o bem estar dos hospedes. Com objetivo de oferecer um tratamento de auto padrão.</p>
                     </ion-col>
+                </ion-row></br>
+                <ion-row col-12 class="row">
                     <ion-col col-4 class="column">
                         <h2>Visão</h2>
                          <p class="text_informacao">Cultivar e passar adiante a essência do “bem servir”. Impulsionados pela satisfação de nossos hóspedes e colaboradores, contribuir para uma relação harmoniosa e feliz entre os indivíduos.</p>
                     </ion-col>
+                </ion-row></br>
+                <ion-row col-12 class="row">
                     <ion-col col-4 class="column">
                         <h2>Valores</h2>
                          <p class="text_informacao">Acreditamos que a qualidade dos serviços está diretamente relacionada ao compromisso com a verdade, transparência e empenho da equipe. Agir sempre com profissionalismo, bom humor e otimismo a fim de alcançar a alegria na hotelaria.</p>
@@ -136,29 +137,5 @@
                 </ion-row>
             </ion-grid>
         </section>
-       
-<!--
-        <h3>Sticky Navigation Bar Example</h3>
-        <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
-        <p><strong>Note:</strong> Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari requires a -webkit- prefix.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
--->
     </body>
 </html>
-
-<script>
-$(document).ready(function(){
-    //FANCYBOX
-    //https://github.com/fancyapps/fancyBox
-    $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
-    });
-});
-</script>
