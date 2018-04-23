@@ -1,8 +1,19 @@
 body {
     font-size: 28px;
 }
-
-
+/*Galeria de fotos*/
+.column-picture{
+    width: 25%;
+    margin-left: 40px;
+}
+.descrição-quarto{
+    background-color: #fff;
+    line-height: 18px;
+}
+span{
+    margin-left: 10px;
+}
+/*Fim*/
 
 .gallery
 {
